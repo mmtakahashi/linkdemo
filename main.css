@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+div {
+    width: 30%;
+    height: 5%;
+    border: solid 1px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+div:hover {
+    transform: translateX(10px);
+    transition: 0.1s;
+    cursor: pointer;
+    background-color: rgb(86, 175, 197);
+}
